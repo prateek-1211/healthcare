@@ -1,0 +1,51 @@
+.calendar-view {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.calendar-day {
+  background: #eef3f7;
+  padding: 0.5rem;
+  border-radius: 6px;
+  text-align: center;
+  position: relative;
+}
+
+.appointment {
+  font-size: 0.75rem;
+  margin-top: 0.25rem;
+  color: #0077cc;
+}
+
+.calendar-details {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.appointment-card {
+  background: #f0f7ff;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.appt-icon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}

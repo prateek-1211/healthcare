@@ -1,0 +1,23 @@
+.schedule-container {
+  background-color: #ffffff;
+  padding: 1.25rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.schedule-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 1rem;
+}
+
+.schedule-day {
+  margin-top: 1.25rem;
+}
+
+.day-heading {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 0.5rem;
+}
